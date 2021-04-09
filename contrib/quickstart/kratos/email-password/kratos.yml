@@ -4,7 +4,7 @@ dsn: memory
 
 serve:
   public:
-    base_url: http://write-cms.invo.zone:4433/
+    base_url: http://127.0.0.1:4433/
     cors:
       enabled: true
   admin:
@@ -65,7 +65,7 @@ secrets:
     - PLEASE-CHANGE-ME-I-AM-VERY-INSECURE
 
 session:
-  lifespan: 720000000000000000h    
+  lifespan: 8640h    
 
 hashers:
   argon2:

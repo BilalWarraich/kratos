@@ -65,7 +65,7 @@ secrets:
     - PLEASE-CHANGE-ME-I-AM-VERY-INSECURE
 
 session:
-  lifespan: 720000000000000000h    
+  lifespan: 8640h    
 
 hashers:
   argon2:
